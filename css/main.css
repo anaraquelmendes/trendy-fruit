@@ -6,11 +6,12 @@
 
 html {
   box-sizing: border-box;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
--moz-text-size-adjust: 100%;
--ms-text-size-adjust: 100%;
--webkit-text-size-adjust: 100%;
-text-size-adjust: 100%;
 
 *, *::before, *::after {
   box-sizing: inherit;
@@ -23,21 +24,27 @@ text-size-adjust: 100%;
 .starfruit {
   background-color: #fbd25e;
 }
+
 .persimmon {
   background-color: #e86033;
 }
 
 .watermelon h2 {
-  font-family: Rammetto One;
+  font-family: "Rammetto One";
 }
 
 .starfruit h2 {
-  font-family: Gravitas One;
+  font-family: "Gravitas One";
 }
 
 .persimmon h2 {
   font-family: Comfortaa;
+}
 
+p {
+  font-family: "Open Sans";
 }
-}
+
+body {
+  margin: 0;
 }
